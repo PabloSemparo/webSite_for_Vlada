@@ -4,7 +4,6 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/webSite_for_Vlada/",   // 🔥 ОБЯЗАТЕЛЬНО ДЛЯ GITHUB PAGES
   server: {
     host: "::",
     port: 8080,
