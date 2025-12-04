@@ -5,10 +5,10 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { href: '#home', label: 'Домик' },
-    { href: '#gallery', label: 'Галлерейка' },
-    { href: '#about', label: 'О Владусике' },
-    { href: '#contact', label: 'Связька' },
+    { href: '#/home', label: 'Домик' },
+    { href: '#/gallery', label: 'Галлерейка' },
+    { href: '#/about', label: 'О Владусике' },
+    { href: '#/contact', label: 'Связька' },
   ];
 
   return (
