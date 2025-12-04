@@ -14,12 +14,16 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <HashRouter>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </HashRouter>
+          <HashRouter>
+              <Routes>
+                  <Route path="/" element={<Index />} />
+                  <Route path="/home" element={<Index />} />
+                  <Route path="/gallery" element={<Index />} />
+                  <Route path="/about" element={<Index />} />
+                  <Route path="/contact" element={<Index />} />
+                  <Route path="*" element={<NotFound />} />
+              </Routes>
+          </HashRouter>
       </TooltipProvider>
     </QueryClientProvider>
 );
